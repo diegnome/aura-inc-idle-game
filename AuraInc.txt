@@ -9,6 +9,8 @@ Let's make a game!
     version:0.0
 
 Settings
+    background:https://images.pexels.com/photos/1946/purple-abstract-haze-blur.jpg
+    stylesheet:stuff/bigBlue.css
 
 Resources
 
