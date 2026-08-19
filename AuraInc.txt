@@ -1,6 +1,12 @@
 // https://orteil.dashnet.org/igm/help.html
 
 Let's make a game!
+    name:Aura, Inc.
+    by:Diegnome
+    desc:Become the most auralicious chad by idlemogging this game.
+    created:19/08/2026
+    updated:19/08/2026
+    version:0.0
 
 Settings
 
