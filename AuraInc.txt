@@ -1,0 +1,21 @@
+// https://orteil.dashnet.org/igm/help.html
+
+Let's make a game!
+
+Settings
+
+Resources
+
+Buttons
+
+Buildings
+
+Upgrades
+
+Achievements
+
+Shinies
+
+Layout
+
+CSS
