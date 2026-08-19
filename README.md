@@ -1,2 +1,6 @@
-# aura-inc-idle-game
- 🗿⚙️ Welcome to Aura Inc.
+# Aura Inc.
+## a game for Idle Game Maker
+
+🗿⚙️ Welcome to Aura Inc.
+
+Get to Aurafarming.
