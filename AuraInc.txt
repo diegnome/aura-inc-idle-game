@@ -13,10 +13,38 @@ Settings
     stylesheet:stuff/bigBlue.css
 
 Resources
+    *aura
+        name:Aura
+        desc:This is your Aura, the weight of your presence. You can use it to get ahead in life and obtain things. Go forth and Auramaxx.
+        show max
 
 Buttons
+    *mogButton
+        name:Mog
+        desc:Highlight your well-defined jawline to generate Aura.
+        on click:yield 1 aura
+        class:bigButton hasFlares
+        on click:anim glow
+        show clicks
 
 Buildings
+    *mogamajig|mogamajigs
+        name:Mogamajig|Mogamajigs
+        desc:A primitive contraption to automatically mog.
+        cost:15 aura
+        on tick:yield 0.1 aura
+
+    *glazer|glazers
+        name:Glazer|Glazers
+        desc:Dedicated glazers for hire.
+        cost:40 aura
+        on tick:yield 1 aura
+
+    *auraFarm|auraFarms 
+        name:Aura Farm|Aura Farms
+        desc:Extract sweet Aura from the tuffest plants.
+        cost:100 aura
+        on tick:yield 5 aura
 
 Upgrades
 
