@@ -6,7 +6,7 @@ Let's make a game!
     by:Diegnome
     desc:Become the most auralicious chad by idlemogging this game.
     created:19/08/2026
-    updated:19/08/2026
+    updated:20/08/2026
     version:0.0
 
 Settings
@@ -27,7 +27,7 @@ Buttons
         on click:yield 1 aura
         icon:https://imgtree.co/direct/6wFlz5f8.png
         class:bigButton hasFlares
-        on click:anim glow
+        on click:anim icon glow
         show clicks
 
 Buildings
