@@ -1,4 +1,5 @@
 // https://orteil.dashnet.org/igm/help.html
+// image links are placeholders, need to find a way to properly host assets
 
 Let's make a game!
     name:Aura, Inc.
@@ -11,6 +12,7 @@ Let's make a game!
 Settings
     background:https://images.pexels.com/photos/1946/purple-abstract-haze-blur.jpg
     stylesheet:stuff/bigBlue.css
+    spritesheet:icons, 48 by 48, https://imgtree.co/direct/3mapTbhl.png
 
 Resources
     *aura
@@ -23,6 +25,7 @@ Buttons
         name:Mog
         desc:Highlight your well-defined jawline to generate Aura.
         on click:yield 1 aura
+        icon:https://imgtree.co/direct/6wFlz5f8.png
         class:bigButton hasFlares
         on click:anim glow
         show clicks
@@ -31,12 +34,14 @@ Buildings
     *mogamajig|mogamajigs
         name:Mogamajig|Mogamajigs
         desc:A primitive contraption to automatically mog.
+        icon:icons[0,0]
         cost:15 aura
         on tick:yield 0.1 aura
 
     *glazer|glazers
         name:Glazer|Glazers
         desc:Dedicated glazers for hire.
+        icon:icons[0,1]
         cost:40 aura
         on tick:yield 1 aura
 
