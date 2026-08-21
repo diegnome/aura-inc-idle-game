@@ -6,18 +6,19 @@ Let's make a game!
     by:Diegnome
     desc:Become the most auralicious chad by idlemogging this game.
     created:19/08/2026
-    updated:20/08/2026
+    updated:21/08/2026
     version:0.0
 
 Settings
     background:https://images.pexels.com/photos/1946/purple-abstract-haze-blur.jpg
     stylesheet:stuff/bigBlue.css
-    spritesheet:icons, 48 by 48, https://imgtree.co/direct/3mapTbhl.png
+    spritesheet:icons, 48 by 48, https://raw.githubusercontent.com/diegnome/aura-inc-idle-game/refs/heads/main/assets/SpritesheetIcons.png
 
 Resources
     *aura
         name:Aura
         desc:This is your Aura, the weight of your presence. You can use it to get ahead in life and obtain things. Go forth and Auramaxx.
+        icon:icons[1,1]
         show max
 
 Buttons
@@ -25,7 +26,7 @@ Buttons
         name:Mog
         desc:Highlight your well-defined jawline to generate Aura.
         on click:yield 1 aura
-        icon:https://imgtree.co/direct/6wFlz5f8.png
+        icon:https://raw.githubusercontent.com/diegnome/aura-inc-idle-game/refs/heads/main/assets/MogButton.png
         class:bigButton hasFlares
         on click:anim icon glow
         show clicks
@@ -41,13 +42,14 @@ Buildings
     *glazer|glazers
         name:Glazer|Glazers
         desc:Dedicated glazers for hire.
-        icon:icons[0,1]
+        icon:icons[1,0]
         cost:40 aura
         on tick:yield 1 aura
 
     *auraFarm|auraFarms 
         name:Aura Farm|Aura Farms
         desc:Extract sweet Aura from the tuffest plants.
+        icon:icons[0,1]
         cost:100 aura
         on tick:yield 5 aura
 
