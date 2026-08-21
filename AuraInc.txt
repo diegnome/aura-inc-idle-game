@@ -54,6 +54,33 @@ Buildings
         on tick:yield 5 aura
 
 Upgrades
+    *mewing
+        name:Mewing
+        desc:These strengthening exercises will sharpen your jawline.
+        // ICON PENDING
+        cost:30 aura
+        passive:increase yield of mogButton by 1
+
+    *oilUp
+        name:Oil up !
+        desc:Well-oiled components ensure smoother mogging.
+        // ICON PENDING
+        cost:90 aura
+        passive:multiply yield of mogamajigs by 2
+
+    *chat
+        name:Chat spamming
+        desc:A command of the chat not seen since prime Rizzler.
+        // ICON PENDING
+        cost:240 aura
+        passive:multiply yield of glazers by 2
+
+    *tuffMango
+        name:Tuff Mangoes
+        desc:These tuff fruits are in high demand !
+        // ICON PENDING
+        cost:600 aura
+        passive:multiply yield of auraFarms by 2
 
 Achievements
 
